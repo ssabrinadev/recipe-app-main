@@ -1,0 +1,60 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+#root {
+  min-height: 100dvh;
+  padding-top: 16px;
+  background-color: #F0EBE1;
+}
+
+.preview {
+  color: #222
+}
+
+.preview h1, h2, h3 {
+  padding: 3px 0;
+  flex-grow: 1;
+  font-weight: 700;
+}
+
+.preview h1 {
+  font-size: 3rem;
+}
+
+.preview h2 {
+  font-size: 2rem;
+}
+
+.preview h3 {
+  font-size: 1rem;
+}
+
+.preview p {
+  line-height: 1.5;
+  height: 30px; 
+}
+
+.preview ol {
+  list-style: decimal;
+}
+
+.preview ol p {
+  margin-left: 0.3em;
+}
+
+.preview ul {
+  list-style: disc;
+}
+
+.preview ol ul {
+  margin-left: 2rem;
+}
+
+.preview ul p {
+  margin-left: 0.3em;
+}
+
+textarea:focus, input:focus{
+  outline: none;
+}
